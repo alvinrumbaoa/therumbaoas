@@ -31,7 +31,7 @@ const Navbar = () =>{
                                         </Link>
                                         <Link to="/admin" className="link">
                                         <img src="/images/contact-us.png" alt="contactus" width="50" height="50"/>
-                                                <p>Clients</p> 
+                                                <p>Settings</p> 
                                         </Link>
                                 </div>
                 </div>
