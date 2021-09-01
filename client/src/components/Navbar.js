@@ -29,6 +29,10 @@ const Navbar = () =>{
                                         <img src="/images/contact-us.png" alt="contactus" width="50" height="50"/>
                                                 <p>Clients</p> 
                                         </Link>
+                                        <Link to="/admin" className="link">
+                                        <img src="/images/contact-us.png" alt="contactus" width="50" height="50"/>
+                                                <p>Clients</p> 
+                                        </Link>
                                 </div>
                 </div>
         )
