@@ -11,7 +11,7 @@ const Blog = (props) =>{
         axios.get("http://localhost:8000/api/blogs")
             .then(res =>{
                 console.log(res.data);
-                setBlog(res.data)
+                setBlog(res.data);
             })
             .catch((err) =>{
                 console.log(err)

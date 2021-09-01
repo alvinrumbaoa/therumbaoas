@@ -28,7 +28,7 @@ h1{
 body{
 
   height: 100%;
-  background-color: #D2A3A9;
+  /* background-color: #D2A3A9; */
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -46,7 +46,7 @@ body{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #FBCCC1 ;
+  /* background-color: #FBCCC1 ; */
   box-shadow: 2px 2px 6px 0px rgb(20, 17, 15);
   padding: 20px;
 }
@@ -474,23 +474,4 @@ font-style: normal;
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
-}
-
-
-  @media only screen and (max-width: 480px) {
-        body, .nav-container{
-            width: 100%;
-        }
-  }
-
-  @media only screen and (min-width: 481px) {
-        body, .nav-container{
-          width: 75%;
-        }
-}
-
-@media only screen and (min-width: 1024px) {
-  body, .nav-container{
-    width: 25%;
-}
-}
+} 
