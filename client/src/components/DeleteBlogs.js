@@ -8,7 +8,7 @@ const DeleteBlogs = (props) =>{
     const BlogdeleteHandler = (e,id) =>{
         
     e.preventDefault();
-    axios.delete("http://localhost:8000/api/blogs/" + id)
+    axios.delete("https://the-rumbaoas.herokuapp.com/api/blogs/" + id)
     .then((res) =>{
         console.log(res.data);
         afterDelete(id);
