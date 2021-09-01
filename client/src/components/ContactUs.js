@@ -72,7 +72,7 @@ const ContactUs = (props) =>{
                                 : null
                             }
                         <div className="textbox-bg">
-                        <p>Message:</p> <textareaput className={errors.message? "error-red": null} type="textarea" name="message"  onChange={(e) => setMessage(e.target.value)}/>
+                        <p>Message:</p> <textarea className={errors.message? "error-red": null} type="textarea" name="message"  onChange={(e) => setMessage(e.target.value)}/>
                         </div>
                         {
                             errors.message ?
