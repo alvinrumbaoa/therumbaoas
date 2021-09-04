@@ -11,11 +11,8 @@
     "mongoose": "^6.0.2"
   },
   "scripts": {
-    "start": "node server/server.js",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
-    "server": "nodemon server.js",
-    "client":  "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "browserslist": {
     "production": [
