@@ -8,7 +8,7 @@ const DeleteImage = (props) =>{
     const ImagedeleteHandler = (e,id) =>{
         
         e.preventDefault();
-    axios.delete("https://the-rumbaoas.herokuapp.com/api/images/" + id)
+    axios.delete("http://the-rumbaoas.herokuapp.com/api/images/" + id)
     .then((res) =>{
         console.log(res.data);
         afterDelete(id);

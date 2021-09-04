@@ -15,7 +15,7 @@ const ContactUs = (props) =>{
     const themesArray = ["Wedding","Newborn","Birthdays","Events","Modeling"];
     const onSubmitHandler =  (e) =>{
         e.preventDefault();
-        axios.post("https://the-rumbaoas.herokuapp.com/api/customers", {
+        axios.post("http://the-rumbaoas.herokuapp.com/api/customers", {
             name: name,
             email: email,
             phone: phone,

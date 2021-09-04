@@ -8,7 +8,7 @@ const DeleteCustomer = (props) =>{
     const CustomerdeleteHandler = (e,id) =>{
         
         e.preventDefault();
-    axios.delete("https://the-rumbaoas.herokuapp.com/api/customers/" + id)
+    axios.delete("http://the-rumbaoas.herokuapp.com/api/customers/" + id)
     .then((res) =>{
         console.log(res.data);
         afterDelete(id);

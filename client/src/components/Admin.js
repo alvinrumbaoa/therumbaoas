@@ -19,7 +19,7 @@ const Admin = (props) =>{
 
         useEffect(() => {
 
-                axios.get("https://the-rumbaoas.herokuapp.com/api/blogs")
+                axios.get("http://the-rumbaoas.herokuapp.com/api/blogs")
                 .then((res) =>{
                         console.log(res.data);  
                         setBlogs(res.data);  
@@ -28,7 +28,7 @@ const Admin = (props) =>{
                         console.log(err.response);
                 })             
 
-                axios.get("https://the-rumbaoas.herokuapp.com/api/customers")
+                axios.get("http://the-rumbaoas.herokuapp.com/api/customers")
                 .then((res) =>{
                         console.log(res.data);  
                         setCustomer(res.data);  
@@ -36,7 +36,7 @@ const Admin = (props) =>{
                 .catch(err => { 
                         console.log(err.response);
                 })     
-                axios.get("https://the-rumbaoas.herokuapp.com/api/images")
+                axios.get("http://the-rumbaoas.herokuapp.com/api/images")
                 .then((res) =>{
                         console.log(res.data);  
                         setImage(res.data);  
@@ -51,7 +51,7 @@ const Admin = (props) =>{
 
         const ImagehandleSubmit =(e) =>{
                 //  e.preventDefault();
-        axios.post("https://the-rumbaoas.herokuapp.com/api/images", {
+        axios.post("http://the-rumbaoas.herokuapp.com/api/images", {
                         imgURL: imageUrl,
                 })
                 .then((res) =>{
@@ -66,7 +66,7 @@ const Admin = (props) =>{
         }
         const BloghandleSubmit =(e) =>{
                 // e.preventDefault();
-                axios.post("https://the-rumbaoas.herokuapp.com/api/blogs", {
+                axios.post("http://the-rumbaoas.herokuapp.com/api/blogs", {
                         title: title,
                         description:description,
                         content: content,
