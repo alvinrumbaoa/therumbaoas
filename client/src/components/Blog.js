@@ -8,7 +8,7 @@ const Blog = (props) =>{
     const [blog, setBlog] = useState([]);
 
     useEffect(() =>{
-        axios.get("http://the-rumbaoas.herokuapp.com/api/blogs")
+        axios.get("heroku logs --tail")
             .then(res =>{
                 console.log(res.data);
                 setBlog(res.data);
