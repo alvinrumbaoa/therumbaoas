@@ -45,7 +45,7 @@ const About = (props) =>{
                                 <div className="sub-text">
                                 <h2> lorem Ipsum ven detta</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Libero nunc consequat interdum varius sit amet mattis vulputate enim.</p>
-                                </div>
+                    s            </div>
                         </div>    
                         </motion.div>
                         <motion.div initial="out" animate="in" exit="out" variants={animationTwo} transition={transition3}>
