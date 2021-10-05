@@ -27,7 +27,7 @@ const Blog = (props) =>{
             <div className="blog-wrapper">
             <div className="blog-wrapper">
                 <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
-                    
+                    <h1>Coming soon!</h1>
                     {
                         blog.map((post, index) => (
                                 <div className="blog-cards" key={index} >

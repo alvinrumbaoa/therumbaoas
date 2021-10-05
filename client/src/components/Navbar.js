@@ -8,7 +8,7 @@ const Navbar = () =>{
                 <div className="nav-container">
                         <AnimatePresence>
                                 <Link to="/home" className="link">
-                                        <h1 className="brand">TheRumbaoas©</h1>
+                                        <h1 className="brand">Maica Rumbaoa©</h1>
                                 </Link>
                                 <div className="nav-links">
                                         <Link to="/home" className="link">

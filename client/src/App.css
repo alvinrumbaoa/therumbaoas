@@ -27,7 +27,7 @@ h1{
 body{
 
   height: 100%;
-  background-color: #D2A3A9;
+  background-color: #ffff;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -45,7 +45,7 @@ body{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #FBCCC1 ;
+  background-color: #E5DDD5 ;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -229,10 +229,8 @@ p:hover {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .wrapper{
-    background: linear-gradient(90deg, #FFE7E2, #d59687);
-    min-height: 100%;
     display:flex;
-  
+    justify-content:center;
     margin-bottom: 45px;
 }
 
@@ -240,7 +238,7 @@ p:hover {
   display:flex;
   flex-direction: column;
   align-items:center;
-  background-color: #d59687;
+  background-color: #e5ddd5;
 
   min-height: 50vh;
   margin: 10px;
@@ -300,9 +298,7 @@ p:hover {
 }
 
 .main-text{ 
-font-size: 5rem;
-font-style: normal;
-
+font-size: 3rem;
 }
 
 .sub-text,.sub-text h2{
@@ -314,7 +310,7 @@ font-style: normal;
   font-family: 'Vidaloka', serif;
   font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 200;
   align-items:center;
 }
 
@@ -462,7 +458,7 @@ width: 100ch;
 }
 
 .content-wrapping{
-    width:25%;
+    width:50%;
 }
 
 .error-red{

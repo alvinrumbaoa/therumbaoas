@@ -28,7 +28,7 @@ const Homepage = () =>{
                             
                             image.map((image, index) =>(       
                                 <Link to={"/images/" + image._id}>
-                                    <img className="homepage-grid-image" src={image.imgURL}  key={index}  alt="portrait" width="400" height="400"/>
+                                    <img className="homepage-grid-image" src={image.imgURL}  key={index}  alt="portrait" width="300" height="300"/>
     
                                 </Link>   
                                 ))   
