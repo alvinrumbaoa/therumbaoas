@@ -267,14 +267,13 @@ p:hover {
   margin: 20px;
 }
   .aboutmepic2{
-    width: 60ch;
-    height: 60vh;
     margin: 20px;
     justify-content:center;
     align-items:center;
     object-fit: cover;
     margin: 10rem, 10rem, 10rem, 0rem;
-    border-radius:  2%;
+    border-radius:  50%;
+    box-shadow: black 2px 2px;
   
     }
 
