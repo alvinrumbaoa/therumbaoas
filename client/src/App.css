@@ -10,25 +10,6 @@
   box-sizing: border-box;
 	/* border:1px solid red; */
 	}
-/* 
-
-  @media only screen and (max-width: 480px) {
-        body, .nav-container{
-            width: 100%;
-        }
-  }
-
-  @media only screen and (min-width: 481px) {
-        body, .nav-container{
-          width: 75%;
-        }
-}
-
-@media only screen and (min-width: 1024px) {
-  body, .nav-container{
-    width: 25%;
-}
-} */
 .App {
   text-align: center;
   justify-content:center;
@@ -319,7 +300,7 @@ p:hover {
 }
 
 .main-text{ 
-font-size: 1rem;
+font-size: 5rem;
 font-style: normal;
 
 }
