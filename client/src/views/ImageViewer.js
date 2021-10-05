@@ -26,7 +26,7 @@ const ImageViewer = (props) =>{
     return(
         <div>
             <Homepage/>
-            <Lightbox image={image.imgURL} title=" " onClose ={onCloseHandler}/>
+            <Lightbox image={image.imgURL} title="Image Title" onClose ={onCloseHandler}/>
         </div>
     )
 }

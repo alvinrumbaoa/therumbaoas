@@ -10,7 +10,25 @@
   box-sizing: border-box;
 	/* border:1px solid red; */
 	}
+/* 
 
+  @media only screen and (max-width: 480px) {
+        body, .nav-container{
+            width: 100%;
+        }
+  }
+
+  @media only screen and (min-width: 481px) {
+        body, .nav-container{
+          width: 75%;
+        }
+}
+
+@media only screen and (min-width: 1024px) {
+  body, .nav-container{
+    width: 25%;
+}
+} */
 .App {
   text-align: center;
   justify-content:center;
@@ -18,10 +36,10 @@
 
 }
 h1{
-  text-shadow: #d59687 2px 5px;
+  
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
@@ -33,12 +51,12 @@ body{
   background-size: cover;
   align-items: center;
   justify-content:center;
-  font-family: 'Encode Sans SC', sans-serif;
+  font-family: 'Vidaloka', serif;
 
 }
 .brand{
-  font-family: 'Homemade Apple', cursive;
-  font-size: 3rem;
+  font-family: 'Vidaloka', serif;
+  font-size: 2rem;
 }
 
 
@@ -47,8 +65,8 @@ body{
   flex-direction: row;
   justify-content: space-between;
   background-color: #FBCCC1 ;
-  box-shadow: 2px 2px 6px 0px rgb(20, 17, 15);
-  padding: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .nav-links{ 
@@ -60,14 +78,14 @@ body{
 }
 .nav-links img:hover{
   opacity: 95%;
-  box-shadow:  1px 1px 1px black;
+
 }
 
 
 p{
   text-decoration: none;
   align-items:center;
-  font-family: 'Encode Sans SC', sans-serif;
+  font-family: 'Vidaloka', serif;
   color: black;
   margin: 5px;
 }
@@ -86,7 +104,6 @@ p:hover {
 .homepage-grid-image:hover {
   opacity: 75%;
   animation: fadeIn 3s;
-  box-shadow:  5px 10px 10px black;
 }
 
 .grid-image{
@@ -103,7 +120,7 @@ p:hover {
 }
 
 .big-text{
-  font-family: 'Encode Sans SC', sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 100px;
 }
 @keyframes fadeIn {
@@ -123,7 +140,6 @@ p:hover {
   justify-content:center;
   flex-direction: column;
   padding: 20px;
-  box-shadow:  1px 1px 1px 1px black;
 }
 
 .social-media{
@@ -152,7 +168,7 @@ p:hover {
   align-items: center;
   justify-content:center;
   text-align: center;
-  box-shadow: 5px 5px 5px 5px rgb(20, 17, 15);
+
   width: 30ch;
   height: 30vh;
   margin: 20px; 
@@ -163,7 +179,7 @@ p:hover {
 }
 
 .cards>h2{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 50px;
   font-weight: 500;
   color: rgb(255, 255, 255);
@@ -191,29 +207,29 @@ p:hover {
     width: 60ch;
     height: 70vh;
     border: 3px solid #cc644a;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  
     backdrop-filter: blur( 0.0px );
     -webkit-backdrop-filter: blur( 0.0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
   
 }
+
 .blog-cards img{
     width: 70%;
     height: 40%;
     object-fit: cover;
     border: 1px solid #cc644a;
     margin: 20px;
-  
-    box-shadow: 1px 1px 1px 1px rgb(20, 17, 15);
 }
+
 .blog-sub-text{
   display: flex;
-  text-shadow: #d59687 2px 5px;
+  
   flex-direction: column;
   justify-content: flex-start;
-  text-shadow: #d59687 2px 5px;
-  font-family: 'Karla', sans-serif;
+  
+  font-family: 'Vidaloka', serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -222,7 +238,7 @@ p:hover {
 
 .blog-info{
   margin: 10px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 30px;
   font-style: normal;
   color: black;
@@ -235,12 +251,8 @@ p:hover {
     background: linear-gradient(90deg, #FFE7E2, #d59687);
     min-height: 100%;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px 5px 5px rgb(20, 17, 15);
-    margin-bottom: 45px;  
-    padding: 2rem;
+  
+    margin-bottom: 45px;
 }
 
 .sub-wrapper{
@@ -248,7 +260,7 @@ p:hover {
   flex-direction: column;
   align-items:center;
   background-color: #d59687;
-  box-shadow: 5px 5px 5px 5px rgb(20, 17, 15);
+
   min-height: 50vh;
   margin: 10px;
   border-radius: 20px;
@@ -259,14 +271,32 @@ p:hover {
   flex-direction: row;
 }
 
+.left{
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  align-items:center;
+  width: 50%;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  margin: 20px;
+}
   .aboutmepic2{
-    position:unset;
-    width: 30ch;
-    height: 30vh;
+    width: 60ch;
+    height: 60vh;
     margin: 20px;
+    justify-content:center;
+    align-items:center;
     object-fit: cover;
-    border-radius:  50%;
-    box-shadow: 5px 5px 5px 5px rgb(20, 17, 15);
+    margin: 10rem, 10rem, 10rem, 0rem;
+    border-radius:  2%;
+  
     }
 
 .parallax{
@@ -288,21 +318,19 @@ p:hover {
   }
 }
 
-.main-text{
-text-shadow: #d59687 2px 5px;
-font-family: 'Montserrat', sans-serif;
-font-size: 80px;
+.main-text{ 
+font-size: 1rem;
 font-style: normal;
 
 }
 
 .sub-text,.sub-text h2{
   display: flex;
-  text-shadow: #d59687 2px 5px;
+  
   flex-direction: column;
   justify-content: flex-start;
-  text-shadow: #d59687 2px 5px;
-  font-family: 'Karla', sans-serif;
+  
+  font-family: 'Vidaloka', serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -311,10 +339,9 @@ font-style: normal;
 
 .info, p{
   margin: 10px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 20px;
   font-style: normal;
-  width: 50%;
 }
 
 .sub-image{
@@ -333,16 +360,15 @@ font-style: normal;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 20px;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 0.0px );
-  -webkit-backdrop-filter: blur( 0.0px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width: 100ch;
+ margin: 20px;
+ backdrop-filter: blur( 0.0px );
+ -webkit-backdrop-filter: blur( 0.0px );
+ border-radius: 10px;
+ border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 100ch;
 }
 .cards-admin>h2{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 50px;
   font-weight: 500;
   color: rgb(255, 255, 255);
@@ -369,7 +395,6 @@ font-style: normal;
   flex-direction: column;
   border: solid 1px black;
   border-radius: 1rem;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 0.0px );
   -webkit-backdrop-filter: blur( 0.0px );
   border-radius: 10px;
@@ -377,7 +402,7 @@ font-style: normal;
 }
 
 .view h2{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 50px;
   font-weight: 500;
   color: black;
@@ -395,7 +420,6 @@ font-style: normal;
   border-radius: 1rem;
   align-items:center;
   justify-content:center;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 0.0px );
   -webkit-backdrop-filter: blur( 0.0px );
   border-radius: 10px;
@@ -468,10 +492,16 @@ font-style: normal;
   width: 40ch;
   height: 10vh;
   display: flex;
+  align-items: center;
   flex-direction:column;
   background-color: #FFE7E2;
   border: solid 3px #cc644a ;
   border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-} 
+
+}
+
+.textbox-bg input, select{
+  width: 60%;
+  
+}
+

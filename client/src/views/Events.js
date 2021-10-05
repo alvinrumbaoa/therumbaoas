@@ -17,7 +17,7 @@ const Events = (props) =>{
 
                         src.map((image, idx)=>(
                             <motion.div  whileHover={{ scale: 1.1 }}  whileTap={{ scale: 0.9 }} >
-                            <img key ={idx} className="square-image"src={image} alt="event images" width="350" height="350"/>
+                            <img className="square-image"src={image} alt="event images" width="350" height="350"/>
                         </motion.div>
                         ))
                     }

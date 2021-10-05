@@ -1,6 +1,6 @@
 {
-  "short_name": "The Rumbaoas || Welcome to My Site",
-  "name": "The Rumbaoas",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

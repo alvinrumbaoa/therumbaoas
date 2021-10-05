@@ -25,7 +25,6 @@ function App() {
       <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
         <Router>
             <Homepage default/>
-            <Admin path="/admin"/>
             <Homepage path="/home"/>
             <ContactUs path="/contactus"/>
             <Portfolio path="/portfolio"/>
@@ -39,6 +38,7 @@ function App() {
             <Modeling path="/portfolio/modeling"/>
             <Food path="/portfolio/food"/>
             <ViewOneBlog path="/blogs/:id"/>
+            <Admin path="/admin"/>
         </Router>
       </motion.div>
     </div>

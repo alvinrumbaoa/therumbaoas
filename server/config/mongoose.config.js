@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
-const dbName = "photoDB";
+const dbName = "therumbaoas";
 
-mongoose.connect("mongodb+srv://xenofy:Senpou_23@photodb.useel.mongodb.net/photoDb?retryWrites=true&w=majority",
-{ 
+mongoose.connect("mongodb://localhost/" + dbName, { 
         useNewUrlParser: true,
         useUnifiedTopology: true
 
