@@ -17,11 +17,16 @@ import ViewOneBlog from './views/ViewOneBlog';
 import {animationOne, transition} from "./animations/Animation";
 import Admin from './components/Admin'
 import './App.css';
-
+import {Helmet} from 'react-helmet';
 function App() {
   return (
     
     <div className="App">
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Maica Rumbaoa || Photographer</title>
+                <link rel="canonical" href="http://therumbaoas.com" />
+      </Helmet>
       <motion.div initial="out" animate="in" exit="out" variants={animationOne} transition={transition}>
         <Router>
             <Homepage default/>
