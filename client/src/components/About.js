@@ -12,7 +12,7 @@ const About = (props) =>{
                 <div className="left">
                     <h2 className="main-text">About Me</h2> 
                     <img className="aboutmepic2" src="/images/maica3.jpg" alt="my pic" width="200" height="200"/>
-                    <h4 className="info">"Me and my husband bring this idea and talent to bring a great look at your memories that will look up for many years. We serviced Orange County are but also flexible to any county around SoCal. We do photgraphy for Newborn, Maternity, Weddings and other. If you are ready to work with us. <Link to="/contactus">Let's get started"</Link></h4>
+                    <h4 className="info">"We are a young husband and wife team (AKA The Rumbaoas) who loves capturing moments. These are forever memories that you can enjoy and share with the next generation to come. We specialize in newborn, maternity, weddings, family, and senior portraits serving Los Angeles , Orange County, and other SoCal counties. Give us a call and <Link to="/contactus">Let's get started"</Link></h4>
                     
                 </div>    
             </div>
